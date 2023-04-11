@@ -1,6 +1,7 @@
 // import modules
 
 import express from 'express'
+import { students } from './data/students.js'
 
 // create Express app
 
