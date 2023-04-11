@@ -24,6 +24,11 @@ app.get('/home', function (req, res) {
   res.render('home')
 })
 
+app.get('/students', function(req, res) {
+  res.render ('students/index', {
+    students: students
+  })
+})
 
 // tell the app to listen on port 3000
 
